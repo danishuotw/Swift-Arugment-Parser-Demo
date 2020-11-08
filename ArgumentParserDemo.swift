@@ -1,3 +1,11 @@
+/* Please add these package to Package.swift
+.package(url: "https://github.com/apple/swift-argument-parser", from: "0.3.0"),
+.package(url: "https://github.com/apple/swift-tools-support-core.git", from: "0.0.1"),
+
+.product(name: "ArgumentParser", package:"swift-argument-parser"),
+.product(name: "SwiftToolsSupport",package: "swift-tools-support-core")
+*/
+
 import ArgumentParser
 
 struct MyTools: ParsableCommand {
